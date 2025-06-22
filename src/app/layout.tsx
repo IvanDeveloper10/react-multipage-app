@@ -2,6 +2,8 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Poppins } from 'next/font/google';
 import Link from 'next/link';
+import RandomQuote from '@/components/RandomQuote';
+import TimeNow from '@/components/TimeNow';
 
 const poppins = Poppins({
   weight: ['300', '400', '500'],
@@ -25,10 +27,10 @@ export default function RootLayout({
           <Link href='/' className='mr-4'>Home</Link>
           <Link href='/about' className='mr-4'>About</Link>
           <Link href='/users'>Users</Link>
-          <Link href='/RandomQuote'>Random Quote</Link>
-          <Link href='/RandomQuote'>Time Now</Link>
         </nav>
         <main className='p-4'>{children}</main>
+        <RandomQuote />
+        <TimeNow />
       </body>
     </html>
   );
