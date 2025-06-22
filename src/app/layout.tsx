@@ -25,6 +25,8 @@ export default function RootLayout({
           <Link href='/' className='mr-4'>Home</Link>
           <Link href='/about' className='mr-4'>About</Link>
           <Link href='/users'>Users</Link>
+          <Link href='/RandomQuote'>Random Quote</Link>
+          <Link href='/RandomQuote'>Time Now</Link>
         </nav>
         <main className='p-4'>{children}</main>
       </body>
