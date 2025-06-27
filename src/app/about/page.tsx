@@ -5,7 +5,7 @@ export default function AboutPage() {
       <ul className='list-disc pl-6 space-y-2'>
         <li>✅ <strong>Three linked pages</strong>: Home, About, Users</li>
         <li>✅ <strong>Nested route</strong>: /users/[id]</li>
-        <li>✅ <strong>At least 5 components</strong>: Container, Greeting, UserList, UserDetails, Layout</li>
+        <li>✅ <strong>At least 5 components</strong>: Container, Greeting, Stars, Projects, UserList</li>
         <li>✅ <strong>One component accepts children</strong>: Container</li>
         <li>✅ <strong>One component accepts props</strong>: Greeting</li>
         <li>✅ <strong>Nested component</strong>: Greeting inside Home, UserList inside Users</li>

@@ -17,11 +17,13 @@ const UserList = () => {
   }, []);
 
   return (
-    <ul className=''>
-      {users.map((user) => (
-        <li key={user.id}>{user.name}</li>
-      ))}
-    </ul>
+    <Fragment>
+      <ul className=''>
+        {users.map((user) => (
+          <li key={user.id}>{user.name}</li>
+        ))}
+      </ul>
+    </Fragment>
   )
 }
 
