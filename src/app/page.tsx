@@ -3,6 +3,7 @@ import Stars from '@/components/Stars';
 import Projects from '@/components/Projects';
 import Footer from '@/components/Footer';
 import { Fragment } from 'react';
+import Posts from '@/components/Posts';
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
         <Stars />
       </div>
       <Projects />
+      <Posts />
       <Footer />
     </Fragment>
   );
