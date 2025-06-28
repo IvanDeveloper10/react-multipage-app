@@ -1,5 +1,6 @@
 // components/Footer.tsx
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -10,15 +11,15 @@ export default function Footer() {
         </p>
 
         <div className='flex gap-6 text-xl'>
-          <a href='https://github.com/IvanDeveloper10' target='_blank' rel='noopener noreferrer' className='hover:text-cyan-400 transition-all duration-300'>
+          <Link href='https://github.com/IvanDeveloper10' target='_blank' rel='noopener noreferrer' className='hover:text-cyan-400 transition-all duration-300'>
             <FaGithub />
-          </a>
-          <a href='https://linkedin.com' target='_blank' rel='noopener noreferrer' className='hover:text-purple-400 transition-all duration-300'>
+          </Link>
+          <Link href='https://linkedin.com' target='_blank' rel='noopener noreferrer' className='hover:text-purple-400 transition-all duration-300'>
             <FaLinkedin />
-          </a>
-          <a href='https://twitter.com' target='_blank' rel='noopener noreferrer' className='hover:text-pink-400 transition-all duration-300'>
+          </Link>
+          <Link href='https://twitter.com' target='_blank' rel='noopener noreferrer' className='hover:text-pink-400 transition-all duration-300'>
             <FaTwitter />
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
