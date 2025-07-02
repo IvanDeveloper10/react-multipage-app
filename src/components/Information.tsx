@@ -33,7 +33,7 @@ export default function Information() {
           <h2 className='text-center text-5xl font-extrabold text-purple-500'>What is?</h2>
           <p className='w-96 text-center'>Hack Club is a large comunity of teenagers who learn and and create. At Hack Club, you can be yourself. For me, Hack Club is an environment filled with opportunities. A free space to build knowledge. Hack Club is art, Hack Club is great.</p>
         </div> 
-        <div>
+        <div className='flex justify-center items-center'>
           <p className='tex-center text-8xl font-extrabold'><strong className='text-cyan-300'>HA</strong>CK CL<strong className='text-pink-300'>UB</strong> IS THE BEST!</p>
         </div>
       </section>
